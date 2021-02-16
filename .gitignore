@@ -5,3 +5,4 @@ _build/*
 !dune
 !dune-project
 !*.z3
+!readme.md
