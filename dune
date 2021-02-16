@@ -1,0 +1,4 @@
+(executable
+ (name main)
+  (preprocess (pps ppx_deriving.std))
+ (libraries containers containers-data core_kernel iter gen ocamlgraph z3 zarith))
